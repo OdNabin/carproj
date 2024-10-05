@@ -1,0 +1,73 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+.navbar-brand{
+  color: rgb(255, 255, 255) !important;
+}
+a.nav-link{
+font-weight: 600;
+  margin:20px 25px;
+}
+.slider .slide-box {
+    border: 3px solid #20B2AA;
+  color: rgb(0, 0, 0);              
+  height: 330px;   
+  margin: 0 43.55px;            
+  border-radius: 30px;  
+  width: 90% !important;
+  overflow: visible !important;    
+}
+.slider {
+  padding: 20px 0;           /* Optional: Adds padding around the entire slider */
+}
+.top{
+  position: absolute !important;
+  top: -150px !important;
+  background-color: rgb(255, 28, 28);
+  height: 300px !important;
+  z-index: 9999 !important;
+  left: 100px;
+}
+.line{
+  height: 1.5px;
+  width: 100px;
+  background-color: rgb(48, 44, 44);
+}
+.slick-next:before,.slick-prev:before{
+  opacity: 1 !important;
+ color: transparent !important;
+ -webkit-text-stroke: 2px #20B2AA;
+  font-size: 60px;
+  background-color: #dde3e3;
+  border-radius: 50% !important;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary.fixed-top{
+  background-color: inherit !important;
+  color:white !important;
+}
+.navbar{
+  background: initial !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+  backdrop-filter: blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 10px;
+  border: 1px solid hsla(0, 0%, 100%, .18); 
+  width: 100% !important;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+ object-fit: cover;
+
+}
+.banner-bg{
+  background-color: red !important;
+  opacity: 0.9;
+  z-index: 99;
+ background-blend-mode: difference;
+ 
+}
+
+
+
+
